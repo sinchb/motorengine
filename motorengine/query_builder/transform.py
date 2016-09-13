@@ -13,6 +13,7 @@ from motorengine.query.in_operator import InQueryOperator
 from motorengine.query.is_null import IsNullQueryOperator
 from motorengine.query.not_operator import NotOperator
 from motorengine.query.not_equal import NotEqualQueryOperator
+from motorengine.query.regx import RegxQueryOperator
 
 
 OPERATORS = {
@@ -25,6 +26,7 @@ OPERATORS = {
     'is_null': IsNullQueryOperator,
     'ne': NotEqualQueryOperator,
     'not': NotOperator,
+    'regx': RegxQueryOperator,
 }
 
 
