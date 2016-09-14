@@ -5,7 +5,7 @@
 from motorengine.query.base import QueryOperator
 
 
-class GreaterThanQueryOperator(QueryOperator):
+class RegxQueryOperator(QueryOperator):
     '''
     Query operator used to return all documents that have the specified field with a value greater than the specified value.
 
