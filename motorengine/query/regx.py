@@ -15,5 +15,5 @@ class RegxQueryOperator(QueryOperator):
 
     def to_query(self, field_name, value):
         return {
-            field_name: {"$regx": value}
+            field_name: {"$regex": value}
         }

@@ -26,7 +26,7 @@ OPERATORS = {
     'is_null': IsNullQueryOperator,
     'ne': NotEqualQueryOperator,
     'not': NotOperator,
-    'regx': RegxQueryOperator,
+    'regex': RegxQueryOperator,
 }
 
 
